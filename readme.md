@@ -49,4 +49,6 @@
      Added flexbox for header to make it more responsive
      Changed ul for nav bar to flex so I can arange them as shown in example
      Removed div for hero image and added figcaption tag so we can have alt text, removed hero class from css
-
+     Changed content class to content element
+     Added alt text for content images
+     Changed content divs to section elements, removed classes and ids because they share same parameters
