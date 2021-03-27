@@ -52,3 +52,6 @@
      Changed content class to content element
      Added alt text for content images
      Changed content divs to section elements, removed classes and ids because they share same parameters
+     Changed div class benefits to aside element
+     Removed benefit-lead, benefit-brand benefit-cost classes added sideContent class since they share same parameters
+     Made sidebar color little darker so text is more accessibility campartable
