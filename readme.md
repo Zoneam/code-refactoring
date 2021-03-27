@@ -6,7 +6,10 @@
 
 ## Web accessibility
 
-    We have to fix web accessibility to ensure that people with disabilities can access a website using assistive technologies like video captions, screen readers, and braille keyboards.
+    We have to fix web accessibility to ensure that people
+    with disabilities can access a website using assistive
+    technologies like video captions, screen readers, and
+    braille keyboards.
 
 ---
 
@@ -43,4 +46,7 @@
      Changed seo class to seoSpan to make more meaningful
      Changed div to nav which is semantic element for navigation bar
      Added class navItems to nav bar items to make it shorter in css and give it a meaning
+     Added flexbox for header to make it more responsive
+     Changed ul for nav bar to flex so I can arange them as shown in example
+     Removed div for hero image and added figcaption tag so we can have alt text, removed hero class from css
 
