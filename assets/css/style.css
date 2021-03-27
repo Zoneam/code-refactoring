@@ -8,24 +8,29 @@ body {
   background-color: #d9dcd6;
 }
 
-.header {
+header {
+  /*changed class header to header element*/
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   background-color: #2a607c;
   color: #ffffff;
+  display: flex; /*added flexbox*/
+  justify-content: space-between;
 }
 
-.header h1 {
+h1 {
+  /*removed header class since there is only one h1*/
   display: inline-block;
   font-size: 48px;
 }
 
-.header h1 .seo {
+.seoSpan {
+  /*removed header and h1 renamed class seo*/
   color: #d9dcd6;
 }
 
-.header div {
+nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -33,11 +38,13 @@ body {
   font-size: 20px;
 }
 
-.header div ul {
+ul {
+  display: flex;
+  justify-content: space-around;
   list-style-type: none;
 }
 
-.header div ul li {
+.navItem {
   display: inline-block;
   margin-left: 25px;
 }
