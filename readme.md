@@ -55,3 +55,5 @@
      Changed div class benefits to aside element
      Removed benefit-lead, benefit-brand benefit-cost classes added sideContent class since they share same parameters
      Made sidebar color little darker so text is more accessibility campartable
+     Changed footer class to footer element
+     Added media query to make website more responsive

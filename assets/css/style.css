@@ -124,12 +124,13 @@ section img {
   max-height: 200px;
 }
 
-section h2 {
+h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
-.footer {
+/* replaced footer clasa with footer element*/
+footer {
   padding: 30px;
   clear: both;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -137,6 +138,23 @@ section h2 {
   text-align: center;
 }
 
-.footer h2 {
+footer h2 {
   font-size: 20px;
+  margin: 0;
+}
+
+/*added media query to make website more responsive*/
+@media (max-width: 756px) {
+  /*changing flexbox to column*/
+  header {
+    flex-direction: column;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  .navItem {
+    background-color: rgba(0, 0, 255, 0.2);
+    margin: 5px;
+    padding: 5px;
+  }
 }
