@@ -4,7 +4,7 @@
 
 ---
 
-    Refactoring existing code improving it without changing what it does.
+    Refactoring existing code, improving it without changing what it does.
 
 ## Web accessibility
 
@@ -51,7 +51,8 @@
 
 #### Hero Image
 
-     [x] Removed div for hero image and added figcaption tag so we can have alt text, removed hero class from css
+     [x] Removed div for hero image and added figcaption tag so we can have alt text,
+     removed hero class from css
 
 #### Content
 
