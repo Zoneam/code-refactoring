@@ -2,6 +2,8 @@
 
 ---
 
+---
+
     Refactoring existing code improving it without changing what it does.
 
 ## Web accessibility
@@ -36,8 +38,6 @@
         * Added website meaningful title
         * Switched title and stylesheet
 
----
-
 ### Body
 
 #### Header
@@ -53,7 +53,9 @@
      Added alt text for content images
      Changed content divs to section elements, removed classes and ids because they share same parameters
      Changed div class benefits to aside element
-     Removed benefit-lead, benefit-brand benefit-cost classes added sideContent class since they share same parameters
+     Removed benefit-lead, benefit-brand benefit-cost classes added sideContent class since they
+     share same parameters
      Made sidebar color little darker so text is more accessibility campartable
      Changed footer class to footer element
      Added media query to make website more responsive
+     Rearanged CSS content to follow a logical structure
