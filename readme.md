@@ -31,7 +31,7 @@
 
 ---
 
-## My improvments explained
+**_ My improvements _**
 
 ### Head
 
@@ -42,20 +42,24 @@
 
 #### Header
 
-     Changed header class to header tag
-     Changed seo class to seoSpan to make more meaningful
-     Changed div to nav which is semantic element for navigation bar
-     Added class navItems to nav bar items to make it shorter in css and give it a meaning
-     Added flexbox for header to make it more responsive
-     Changed ul for nav bar to flex so I can arange them as shown in example
-     Removed div for hero image and added figcaption tag so we can have alt text, removed hero class from css
-     Changed content class to content element
-     Added alt text for content images
-     Changed content divs to section elements, removed classes and ids because they share same parameters
-     Changed div class benefits to aside element
-     Removed benefit-lead, benefit-brand benefit-cost classes added sideContent class since they
+     [x] Changed header class to header tag
+     [x] Changed seo class to seoSpan to make more meaningful
+     [x] Changed div to nav which is semantic element for navigation bar
+     [x] Added class navItems to nav bar items to make it shorter in css and give it a meaning
+     [x] Added flexbox for header to make it more responsive
+     [x] Changed ul for nav bar to flex so I can arange them as shown in example
+     [x] Removed div for hero image and added figcaption tag so we can have alt text, removed hero class from css
+     [x] Changed content class to content element
+     [x] Added alt text for content images
+     [x] Changed content divs to section elements, removed classes and ids because they share same parameters
+     [x] Changed div class benefits to aside element
+     [x] Removed benefit-lead, benefit-brand benefit-cost classes added sideContent class since they
      share same parameters
-     Made sidebar color little darker so text is more accessibility campartable
-     Changed footer class to footer element
-     Added media query to make website more responsive
-     Rearanged CSS content to follow a logical structure
+     [x] Made sidebar color little darker so text is more accessibility campartable
+     [x] Changed footer class to footer element
+     [x] Added media query to make website more responsive
+     [x] Rearanged CSS content to follow a logical structure
+
+---
+
+![Refactored website capture](./Website_Refactoring.png)
